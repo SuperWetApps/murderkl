@@ -438,6 +438,42 @@ var eventTiles = [
 	"Nothing"
 	],[
 	"Brown",
+	"Victim's Hobbies",
+	"Science",
+	"Games",
+	"Adventure",
+	"Food",
+	"Arts",
+	"Fashion"
+	],[
+	"Brown",
+	"Victim's Personality",
+	"Public",
+	"Wild",
+	"Reserved",
+	"Healthy",
+	"Lazy",
+	"Average"
+	],[
+	"Brown",
+	"Ambient Noise",
+	"Nature",
+	"Traffic",
+	"People",
+	"Machines",
+	"Energy",
+	"Silent"
+	],[
+	"Brown",
+	"Smell in The Air",
+	"Chemical",
+	"Perfume",
+	"Human Waste",
+	"Flowers",
+	"Garbage",
+	"Food"
+	],[
+	"Brown",
 	"Social Relationship",
 	"Relatives",
 	"Friends",
@@ -503,8 +539,8 @@ var eventTiles = [
 	"Each player must flip over 1 of their own Clue Cards, removing it from consideration. This must be done without discussion. The murderer may not flip over the Key Evidence. (Take this action in counterclockwise order from the Forensic Scientist.) Discard this event tile."
 	],[
 	"Special",
-	"Secret Testimony",
-	"All players except the Forensic Scientist close their eyes.  The witness then opens their eyes, points to a scene tile to eliminate, then closes their eyes. All players then open their eyes and the Forensic Scientist discards the indicated tile and replaces it with a random one. Discard this event tile."
+	"The Perfect Crime",
+	"Flip a coin secretly. If it is a HEAD, you now win with the Murderer. If it is a TAIL, you win with the Investigators as normal. In either case, draw another tile for this round of Evidence Collection."
 	]
 ];
 var eventTilesCopy = eventTiles.slice();
