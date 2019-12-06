@@ -19,11 +19,13 @@ var means = [
 	"Dirty Water",
 	"Dumbbell",
 	"Electric Current",
+	"Exam Paper",
 	"Explosives",
 	"Folding Chair",
 	"Gunpowder",
 	"Hammer",
 	"Hook",
+	"Ice",
 	"Ice Skates",
 	"Illegal Drug",
 	"Injection",
@@ -56,6 +58,7 @@ var means = [
 	"Scissors",
 	"Sculpture",
 	"Smoke",
+	"Lay's Snack",
 	"Sniper",
 	"Starvation",
 	"Stone",
@@ -63,6 +66,7 @@ var means = [
 	"Surgery",
 	"Towel",
 	"Trophy",
+	"Tissue Roll",
 	"Unarmed",
 	"Venomous Scorpion",
 	"Venomous Snake",
@@ -163,6 +167,7 @@ var evidence = [
 	"Jewelry",
 	"Juice",
 	"Key",
+	"Kick",
 	"Leaf",
 	"Leather Bag",
 	"Leather Shoe",
@@ -205,6 +210,7 @@ var evidence = [
 	"Postal Stamp",
 	"Powder",
 	"Puppet",
+	"Push",
 	"Puzzle",
 	"Raincoat",
 	"Rat",
@@ -249,7 +255,8 @@ var evidence = [
 	"Video Camera",
 	"Violin",
 	"Wallet",
-	"Watch"
+	"Watch",
+	"Work"
 ];
 var locations = [
 	[
@@ -373,15 +380,6 @@ var eventTiles = [
 	"Short",
 	"Disfigured",
 	"Fit"
-	],[
-	"Brown",
-	"Victim's Clothes",
-	"Neat",
-	"Untidy",
-	"Elegant",
-	"Shabby/Lack of Care",
-	"Bizarre/Strage",
-	"Naked"
 	],[
 	"Brown",
 	"Evidence Left Behind",
