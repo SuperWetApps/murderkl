@@ -10,7 +10,9 @@ var means = [
 	"Box Cutter",
 	"Brick",
 	"Bury",
-	"Candlestick",
+	"Banana",
+	"Bicycle",
+	"Badminton Racket",
 	"Chainsaw",
 	"Chemicals",
 	"Dagger",
@@ -27,6 +29,7 @@ var means = [
 	"Injection",
 	"Kick",
 	"Knife And Fork",
+	"Keyboard",
 	"Lighter",
 	"Liquid Drug",
 	"Locked Room",
@@ -68,7 +71,8 @@ var means = [
 	"Whip",
 	"Wine",
 	"Wire",
-	"Work"
+	"Work",
+	"Yoga Mat"
 ];
 var evidence = [
 	"Air Conditioning",
@@ -87,6 +91,7 @@ var evidence = [
 	"Broom",
 	"Bullet",
 	"Button",
+	"Car",
 	"Cake",
 	"Calender",
 	"Candy",
@@ -279,7 +284,7 @@ var locations = [
 	]
 ]
 var causeOfDeathTile = [
-	"Suffocation(Cant Breath)",
+	"Suffocation",
 	"Severe Injury",
 	"Loss of Blood",
 	"Illness/ Disease",
@@ -330,7 +335,7 @@ var eventTiles = [
 	"Stiff",
 	"Decayed",
 	"Incomplete",
-	"Intact",
+	"Intact/Complete",
 	"Twisted"
 	],[
 	"Brown",
@@ -374,8 +379,8 @@ var eventTiles = [
 	"Neat",
 	"Untidy",
 	"Elegant",
-	"Shabby",
-	"Bizarre",
+	"Shabby/Lack of Care",
+	"Bizarre/Strage",
 	"Naked"
 	],[
 	"Brown",
@@ -437,7 +442,7 @@ var eventTiles = [
 	"Relatives",
 	"Friends",
 	"Colleagues",
-	"Employer/ Employee",
+	"Employer/Employee",
 	"Lovers",
 	"Strangers"
 	],[
