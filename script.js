@@ -598,6 +598,7 @@ function eventSetup(){
 		addEvent();
 		addEvent();
 		addEvent();
+		addEvent();
 		$("#permEvents tr").unbind();
 	});
 	
